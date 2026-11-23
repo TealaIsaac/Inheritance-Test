@@ -4,5 +4,19 @@
 
 #include "Truck.h"
 
+#include <iostream>
+
 using namespace std;
 
+void Truck::setTowingCapacity(int capacity) {
+		towingCapacity = capacity;
+}
+
+int Truck::getTowingCapacity() {
+	return towingCapacity;
+}
+
+void Truck::displayInfo() {
+	Vehicle::displayInfo();
+	cout << "Towing Capacity: " << towingCapacity << "\n";
+}

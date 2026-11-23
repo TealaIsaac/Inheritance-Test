@@ -6,12 +6,18 @@
 #ifndef TRUCK_H
 #define TRUCK_H
 
+#include "Vehicle.h"
+
 using namespace std;
 
-class Truck {
+class Truck : public Vehicle {
 	private:
+		int towingCapacity;
 
 	public:
+		void setTowingCapacity(int capacity);
+		int getTowingCapacity();
+		virtual void displayInfo();
 
 };
 
