@@ -8,6 +8,16 @@
 
 using namespace std;
 
+Vehicle::Vehicle() {
+	manufacturer = ""; // Set the default manufacturer name.
+	yearBuilt = 0; // Set the default year the vehicle was built.
+}
+
+Vehicle::Vehicle(string name, int year) {
+	manufacturer = name;
+	yearBuilt = year;
+}
+
 void Vehicle::setManufacturer(string name) {
 	manufacturer = name; // Set the manufacturer name.
 }

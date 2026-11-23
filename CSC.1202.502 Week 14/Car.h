@@ -15,6 +15,8 @@ class Car : public Vehicle {
 		int numDoors;
 
 	public:
+		Car();
+		Car(string name, int year, int doors);
 		void setNumDoors(int doors);
 		int getNumDoors();
 		virtual void displayInfo();

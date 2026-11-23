@@ -16,6 +16,8 @@ class Vehicle {
 		int yearBuilt;
 
 	public:
+		Vehicle();
+		Vehicle(string name, int year);
 		void setManufacturer(string name);
 		string getManufacturer();
 		void setYearBuilt(int year);

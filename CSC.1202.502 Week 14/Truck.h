@@ -15,10 +15,11 @@ class Truck : public Vehicle {
 		int towingCapacity;
 
 	public:
+		Truck();
+		Truck(string name, int year, int capacity);
 		void setTowingCapacity(int capacity);
 		int getTowingCapacity();
 		virtual void displayInfo();
-
 };
 
 #endif
