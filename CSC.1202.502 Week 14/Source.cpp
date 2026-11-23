@@ -7,6 +7,7 @@
 #include "Truck.h"
 #include <iostream>
 #include <string> // For getline.
+#include <limits> // For numeric_limits.
 
 using namespace std;
 
