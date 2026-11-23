@@ -9,19 +9,19 @@
 using namespace std;
 
 void Vehicle::setManufacturer(string name) {
-	manufacturer = name;
+	manufacturer = name; // Set the manufacturer name.
 }
 
 string Vehicle::getManufacturer() {
-	return manufacturer;
+	return manufacturer; // Return the manufacturer name.
 }
 
 void Vehicle::setYearBuilt(int year) {
-	yearBuilt = year;
+	yearBuilt = year; // Set the year the vehicle was built.
 }
 
 int Vehicle::getYearBuilt() {
-	return yearBuilt;
+	return yearBuilt; // Return the year the vehicle was built.
 }
 
 void Vehicle::displayInfo() {

@@ -9,11 +9,11 @@
 using namespace std;
 
 void Car::setNumDoors(int doors) {
-	numDoors = doors;
+	numDoors = doors; // Set the number of car doors.
 }
 
 int Car::getNumDoors() {
-	return numDoors;
+	return numDoors; // Return the number of car doors.
 }
 
 void Car::displayInfo() {

@@ -9,11 +9,11 @@
 using namespace std;
 
 void Truck::setTowingCapacity(int capacity) {
-		towingCapacity = capacity;
+	towingCapacity = capacity; // Set the towing capacity of the truck.
 }
 
 int Truck::getTowingCapacity() {
-	return towingCapacity;
+	return towingCapacity; // Return the towing capacity of the truck.
 }
 
 void Truck::displayInfo() {
